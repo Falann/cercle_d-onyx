@@ -1,0 +1,45 @@
+/* Styles for screens with a maximum width of 768 pixels */
+@media screen and (max-width: 768px) {
+    body {
+      font-size: 16px;
+    }
+    
+    .header {
+      height: 80px;
+      background-color: #333;
+    }
+    
+    .menu {
+      display: none;
+    }
+    
+    .content {
+      width: 100%;
+      padding: 20px;
+    }
+  }
+  
+  /* Styles for screens with a minimum width of 769 pixels */
+  @media screen and (min-width: 769px) {
+    body {
+      font-size: 18px;
+    }
+    
+    .header {
+      height: 100px;
+      background-color: #666;
+    }
+    
+    .menu {
+      display: block;
+      float: left;
+      width: 20%;
+      padding: 10px;
+    }
+    
+    .content {
+      width: 80%;
+      float: left;
+      padding: 30px;
+    }
+  }

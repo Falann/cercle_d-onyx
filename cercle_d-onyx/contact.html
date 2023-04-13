@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html
+<head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="#"/>
+</head>
+<body>
+  <header><a href="index.html"><img src="image\logo_cercle_onyx.png" width="6%"></a></header>
+    <nav>
+      <ul>
+        <li><a href="#">Accueil</a></li>
+        <li class="deroulant"><a href="#">Informations &ensp;</a>
+          <ul class="sous">
+            <li><a href="#">Nos partenaires</a></li>
+            <li><a href="#">Ressources</a></li>
+            <li><a href="#">Lexique</a></li>
+                <ul class="sous_sous">
+                    <li><a href="#">Aromantisme</a></li>
+                    <li><a href="#">Asexualité</a></li>
+                </ul>
+          </ul>
+        </li>
+        <li class="deroulant"><a href="#">Groupes &ensp;</a>
+          <ul class="sous">
+            <li><a href="#">Lausanne</a></li>
+            <li><a href="#">Aigle</a></li>
+          </ul>
+        </li>
+        <li><a href="#">A propos</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+<form>
+  <label for="search">Recherche :</label>
+  <input type="text" id="search" name="search" placeholder="Entrez votre recherche...">
+  <button type="submit">Rechercher</button>
+</form>
+
+     <p> <h1>Contact</h1> </p>
+    <p> Vous voulez vous inscrire ou apporter votre pierre à l'édifice en nous proposant des améliorations ou activités ? Acun souci ! </p> 
+      <form method="post" action="mailto:zoe.dutoit@etu.hesge.ch">
+        <h2>Formulaire de contact</h2>
+        <table>
+            <tr>
+              <td><label for="nom"> Nom : </label></td>
+              <td><input type="text" id="nom"> <br/></td>
+            </tr> 
+            <tr>
+              <td><label for="prenom"> Prénom : </label></td>
+              <td><input type="text" id="prenom"> <br/></td>
+            </tr>
+            <tr>
+              <td><label for="email"> Email : </label></td>
+              <td><input type="text" id="email"> <br/></td>
+            </tr>
+            <tr>
+              <td><label for="raison"> Raison de contact : </label></td>
+              <td><input type="radio" name="raison" value="inscription"> Inscription <br>
+              <input type="radio" name="raison" value="proposition"> Proposition d'amélioration ou d'activité <br>
+              <input type="radio" name="raison" value="autre"> Autre <br></td>
+             </tr>
+             <tr>   
+              <td><label for="texte"> Votre texte : </label><br></td>
+              <td><textarea rows="10" cols="50" id="remarques"></textarea><br></td>
+            </tr>    
+            <tr>
+              <td>Action à entreprendre : </td>
+              <td><input type="submit" value="Envoyer">
+              <input type="reset" value="Effacer"></td>
+            </tr>
+          </table>
+      </form>
+    <footer>
+      <p>©2023 - tous droits réservés <br/> Site créé par Zoé Dutoit
+    </footer>
+</body>
+</html>
