@@ -1,1 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>Page d'accueil</title>
+    <link rel="stylesheet" href="#"/>
+</head>
+<body>
+    <header><a href="index.html"><img src="image\logo_cercle_onyx.png"></a></header>
+    <!--Navigation à deux sous-niveau qui sont enregistés dans des class-->
+    <nav>
+      <ul>
+        <li><a href="#">Accueil</a></li>
+        <li class="deroulant"><a href="#">Informations &ensp;</a>
+          <ul class="sous">
+            <li><a href="#">Nos partenaires</a></li>
+            <li><a href="#">Ressources</a></li>
+            <li><a href="#">Lexique</a></li>
+                <ul class="sous_sous">
+                    <li><a href="#">Aromantisme</a></li>
+                    <li><a href="#">Asexualité</a></li>
+                </ul>
+          </ul>
+        </li>
+        <li class="deroulant"><a href="#">Groupes &ensp;</a>
+          <ul class="sous">
+            <li><a href="#">Lausanne</a></li>
+            <li><a href="#">Aigle</a></li>
+          </ul>
+        </li>
+        <li><a href="#">A propos</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+<!--Barre de recherche-->
+<form>
+  <label for="search">Recherche :</label>
+  <input type="text" id="search" name="search" placeholder="Recherche...">
+  <button type="submit">Rechercher</button>
+</form>
 
+ <!--Message "d'erreur" lorsque qqn s'aventure à un endroit où il ne devrait pas être-->
+
+  <h1>Oups ! Il semblerait que vous soyez perdu...</h1> </br>
+  <h2>Cliquez <a href="#">ici</a> pour retourner à la page d'accueil</h2>
+  
+<!--Pied de page du site, qui contient : l'année de la dernière mise à jour, la référence de l'auteur du site et nom du navigateur compatible-->
+    <footer>
+        <p>©2023 - tous droits réservés <br/> Site créé par Zoé Dutoit</p>
+        <p>Site compatible avec le navigateur Google Chrome</p> 
+    </footer>
+</body>
+</html>
